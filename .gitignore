@@ -209,6 +209,13 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# Local credentials and operating-system files
+.env.*
+*.key
+*.pem
+.DS_Store
+Thumbs.db
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
